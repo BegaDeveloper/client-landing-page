@@ -1,0 +1,192 @@
+* {
+  font-family: "Calibri";
+}
+body {
+  font-family: "Calibri";
+}
+#white-t {
+  color: white;
+  transition: all 0.4s;
+}
+
+#white-t:hover {
+  color: #81c150;
+}
+.images-display-none {
+  margin: auto 0;
+}
+#tile-header {
+  background-image: url(/images/tileservices-header.jpg);
+  margin-top: -80px;
+  width: 100%;
+  height: 83vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#txtt h3 {
+  font-family: "Calibri";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 43px;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+.shadow {
+  -moz-box-shadow: 0 0 4px #ccc;
+  -webkit-box-shadow: 0 0 4px #ccc;
+  box-shadow: 0 0 4px #ccc;
+}
+
+.abt-img {
+  -moz-box-shadow: 0 0 4px #ccc;
+  -webkit-box-shadow: 0 0 4px #ccc;
+  box-shadow: 0 0 4px #ccc;
+}
+
+#tile-about {
+  margin: -100px 0 0 auto;
+  background-color: white;
+}
+
+#tile-about-div {
+  margin: auto 0 auto 285px;
+  padding: 30px;
+  width: 550px;
+  height: auto;
+}
+
+#quote {
+  background: #81c150;
+  border: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px 25px;
+  transition: all 0.4s;
+}
+
+#quote:hover {
+  background: #157347;
+  color: aliceblue;
+}
+
+#tile-bg {
+  margin-top: -30px;
+}
+
+#tile-revert-div h3 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#tile-bg-white {
+  background-color: white;
+}
+
+/*#tile-revert-img {
+  width: 620px;
+}*/
+
+#white-bg {
+  background-color: white;
+}
+
+#bathroom {
+  margin-top: 50px;
+}
+#floor {
+  margin-top: 50px;
+}
+#kitchen {
+  margin-top: 140px;
+}
+#tile-revert-div {
+  padding: 30px;
+  z-index: 2;
+  margin: auto -81px auto 53px;
+  background: #212121;
+  color: aliceblue;
+  height: 330px;
+  width: 500px;
+}
+
+#margin-tile {
+  margin-top: 140px;
+}
+
+#tile-footer {
+  margin-top: 70px;
+}
+
+.tile-hr {
+  color: #d9d7d7;
+  width: 225px;
+}
+@media (max-width: 1550px) {
+  #tile-about-div {
+    margin: auto 0 auto 250px;
+  }
+}
+
+@media (max-width: 1520px) {
+  #tile-about-div {
+    margin: auto 0 auto 230px;
+  }
+}
+
+@media (max-width: 1480px) {
+  #tile-about-div {
+    margin: auto 0 auto 200px;
+  }
+}
+@media (max-width: 1450px) {
+  #tile-about-div {
+    margin: auto 0 auto 160px;
+  }
+}
+@media (max-width: 1420px) {
+  #tile-about-div {
+    margin: auto 0 auto 140px;
+  }
+}
+
+/*MEDIA*/
+@media (max-width: 1300px) {
+  .tile-hr {
+    width: auto;
+  }
+  #tile-about-div {
+    margin: auto 0 auto 100px;
+  }
+}
+@media (max-width: 1220px) {
+  #tile-about-div {
+    margin: auto 0 auto 70px;
+  }
+}
+
+@media (max-width: 1090px) {
+  .images-display-none {
+    display: none;
+  }
+  #tile-about-div {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 991px) {
+  #tile-header {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  #tile-revert-div {
+    margin: 0 auto;
+    height: auto;
+    width: auto;
+  }
+}

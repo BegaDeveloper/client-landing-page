@@ -1,0 +1,130 @@
+*{
+  font-family: "Calibri";
+}
+body {
+  font-family: "Calibri";
+}
+#white-t {
+  color: white;
+  transition: all 0.4s;
+}
+
+#white-t:hover {
+  color: #81c150;
+}
+
+#header-img {
+  background: url(/images/aboutus-header.jpg);
+  margin-top: -80px;
+  width: 100%;
+  height: 83vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#green-about {
+  margin: -100px 0 0 auto;
+  background-color: white;
+ 
+}
+
+#dark-about {
+  margin-top: -30px;
+}
+
+#txt-about-about {
+  margin: auto 0;
+  padding: 30px;
+  height: auto;
+  width: 500px;
+}
+
+.two-divs {
+  padding: 80px 130px;
+  background-color: #f7f7f7;
+}
+
+.our {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.mission {
+  font-weight: 300;
+}
+
+.mission-div,
+.vision-div {
+  margin-right: 80px;
+}
+
+#quote {
+  background: #81c150;
+  border: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px 25px;
+  transition: all 0.4s;
+}
+
+#quote:hover {
+  background: #157347;
+  color: aliceblue;
+}
+
+#name,
+#email,
+#phone,
+#subject {
+  background: #020202;
+  border: none;
+  border-bottom: 1px #6e6e6e solid;
+  outline: none;
+  color: #6e6e6e;
+  border-radius: 0;
+}
+
+#hrr {
+  color: #d9d7d7;
+  width: 225px;
+}
+
+@media (max-width: 1300px) {
+  #hrr {
+    width: auto;
+  }
+}
+@media (max-width: 991px) {
+  #header-img {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 660px) {
+  .two-divs {
+    padding: 40px 25px;
+  }
+  .mission-div,
+  .vision-div {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 540px) {
+  #txt-about-about {
+    width: 400px;
+  }
+}
+@media (max-width: 440px) {
+  #txt-about-about {
+    width: 300px;
+  }
+}
+
+@media (max-width: 350px) {
+  #txt-about-about {
+    width: 250px;
+  }
+}

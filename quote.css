@@ -1,0 +1,96 @@
+#quote-header{
+    background-image: url(/images/getaquote-header.jpg);
+    margin-top: -80px;
+    width: 100%;
+    height: 83vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#txt-h3{
+    width: 1145px;
+}
+
+.form-div{
+    background: #020202;
+    padding: 40px 270px;
+}
+
+#quote-bg{
+    margin-top: -30px;
+}
+
+.inpt-q{
+    color: aliceblue;
+    margin: 15px 0;
+    background: #020202;
+    border: none;
+    border-bottom: 1px grey solid;
+    width: 260px;
+    outline: none;
+    padding-bottom: 10px;
+}
+
+#txt-area-quote{
+    width: 100%;
+}
+
+.qt-btn{
+    font-weight: 700;
+    padding: 3px 60px;
+    color: #81c150;
+    border: 1px #81c150 solid;
+    background: #020202;
+    transition: all 0.4s;
+}
+
+.qt-btn:hover{
+    color: #020202;
+    background: #81c150;
+}
+
+#quote-white-bg{
+    margin-top: -100px;
+    background: white;
+}
+
+.form-div h3{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+
+.quotee{
+    font-weight: 300;
+}
+
+@media(max-width: 1410px){
+    .form-div{
+        background: #020202;
+        padding: 40px 1600px;
+    }
+}
+
+@media(max-width: 1230px){
+    #txt-h3{
+        width: auto;
+    }
+}
+
+@media(max-width: 1200px){
+    .form-div{
+        padding: 40px 50px;
+    }
+}
+@media(max-width: 991px){
+    #quote-header{
+        margin-top: 0;
+    }
+}
+
+@media(max-width: 500px){
+    .inpt-q{
+        width: 220px;
+    }
+}

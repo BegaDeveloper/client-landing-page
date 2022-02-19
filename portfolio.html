@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="/images/faviconDream.PNG" />
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="dream.css" />
+    <!--Font Awesome-->
+    <script
+      src="https://kit.fontawesome.com/5fbf931e21.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <title>Dream Tiling LLC</title>
+</head>
+<body>
+        <!---Nav--->
+        <nav class="navbar navbar-expand-lg">
+            <button
+              class="navbar-toggler btn btn-primary"
+              id="button-nav"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </button>
+            <a class="navbar-brand logo-div" href="#">
+              <img src="/images/logo.png" class="main-logo hidden-first" alt="" />
+            </a>
+      
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav margin-nav">
+                <a class="nav-item nav-link nav-stuff home-tag white-text" href="index.html"
+                  >HOME</a
+                >
+                <a class="nav-item nav-link nav-stuff white-text" href="about.html"
+                  >ABOUT US</a
+                >
+                <a class="nav-item nav-link nav-stuff white-text" href="tile.html"
+                  >TILE SERVICES</a
+                >
+              </div>
+            </div>
+            <a class="navbar-brand logo-div" href="#">
+              <img src="/images/logo.png" class="main-logo hidden-second" alt="" />
+            </a>
+      
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav margin-nav">
+                <a class="nav-item nav-link nav-stuff white-text" href="#" id="home-tag"
+                  >PORTFOLIO
+                </a>
+                <a class="nav-item nav-link nav-stuff white-text" href="#" onClick="smoothScroll(document.getElementById('contact'))">CONTACT</a>
+                <a class="nav-item nav-link nav-stuff white-text" href="quote.html"
+                  >GET A QUOTE</a
+                >
+              </div>
+            </div>
+          </nav>
+          <section>
+            <div class="main-content-home mx-none">
+              <div class="image-header" id="portfolio-header">
+                <div class="home-text">
+                  <div class="txt" id="txt-portport">
+                    <h3>
+                     We use the highest quality tile and most advanced techniques to ensure you're left with a room you're proud to call your own
+                    </h3>
+                  </div>
+                  <div class="btn-div">
+                    <button class="btn btn-success quote-btn"><a href="quote.html" class="a-link">GET FREE QUOTE</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mx-auto home-about-div">
+              <div class="col-md-2 dark-bg" id="portfolio-dark"></div>
+              <div class="col-md-10 portfolio-swiper-div">
+                  <h4 class="portfolio-h4">Portfolio</h3>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                          <div class="large-image" id="portfolio-large-img">
+                            <a type="button" data-toggle="modal" data-target="#exampleModal">
+                              <img src="/portfolio/portfolio1.jpg" class="port-img large-port-img" id="first-pic" alt="" />
+                            </a>
+                            
+                          </div>
+                          <div class="swiper-slide no-hidden" id="slide-th">
+                            
+                          </div>
+                          <div class="swiper-slide no-hidden" id="slide-the">
+              
+                          </div>
+                          <div class="swiper-slide no-hidden" id="slide-thee">
+              
+                          </div>
+                          <div class="swiper-slide no-hidden" id="slide-theee">
+              
+                          </div>
+                            <div class="swiper-slide slide-port" id="slide1">
+                              <a type="button" data-toggle="modal" data-target="#exampleModal2">
+                                <img src="/portfolio/portfolio2.jpg" class="port" alt="" />
+                              </a>
+                              </div>
+                              <div class="swiper-slide slide-port" id="slide2">
+                                <a type="button" data-toggle="modal" data-target="#exampleModal3">
+                                <img src="/portfolio/portfolio3.jpg" class="port" alt="" />
+                                </a>
+                              </div>
+                              <div class="swiper-slide slide-port" id="slide3">
+                                <a type="button" data-toggle="modal" data-target="#exampleModal4">
+                                <img src="/portfolio/portfolio4.jpg" class="port" alt="" />
+                              </a>
+                              </div>
+                              <div class="swiper-slide slide-port" id="slide4">
+                                <a type="button" data-toggle="modal" data-target="#exampleModal5">
+                                <img src="/portfolio/portfolio5.jpg" class="port" alt="" />
+                              </a>
+                              </div>
+                              <div class="swiper-slide slide-port" id="slide5">
+                                <a type="button" data-toggle="modal" data-target="#exampleModal6">
+                                <img src="/portfolio/portfolio6.jpg" class="port" alt="" />
+                              </a>
+                              </div>
+                              <div class="swiper-slide slide-port" id="slide6">
+                                <a type="button" data-toggle="modal" data-target="#exampleModal7">
+                                <img src="/portfolio/portfolio7.jpg" class="port" alt="" />
+                              </a>
+                              </div>
+                              <div class="swiper-slide slide-port" id="slide7">
+                                <a type="button" data-toggle="modal" data-target="#exampleModal8">
+                                <img src="/portfolio/portfolio8.jpg" class="port" alt="" />
+                              </a>
+                              </div>
+                              <div class="swiper-slide slide-port" id="slide8">
+                                <a type="button" data-toggle="modal" data-target="#exampleModal9">
+                                <img src="/portfolio/portfolio9.jpg" class="port" alt="" />
+                              </a>
+                              </div>
+                              <div class="swiper-slide slide-port" id="slide9" >
+                                <a type="button" data-toggle="modal" data-target="#exampleModal10">
+                                <img src="/portfolio/portfolio10.jpg" id="port10" class="port" alt="" />
+                              </a>
+                              </div>
+                              <div class="swiper-slide slide-port" id="slide10">
+                                <a type="button" data-toggle="modal" data-target="#exampleModal11">
+                                <img src="/portfolio/portfolio11.jpg" class="port" alt="" />
+                              </a>
+                              </div>
+                              <div class="swiper-slide slide-port" id="slide11">
+                                <a type="button" data-toggle="modal" data-target="#exampleModal12">
+                                <img src="/portfolio/portfolio12.jpg" class="port" alt="" />
+                              </a>
+                              </div>
+                              <div class="swiper-slide slide-port" id="slide12">
+                                <a type="button" data-toggle="modal" data-target="#exampleModal13">
+                                <img src="/portfolio/portfolio13.jpg" class="port" alt="" />
+                              </a>
+                              </div>
+                              <div class="swiper-slide slide-port" id="slide13">
+                                <a type="button" data-toggle="modal" data-target="#exampleModal14">
+                                <img src="/portfolio/portfolio14.jpg" class="port" alt="" />
+                              </a>
+                              </div>
+                              <div class="swiper-slide">
+                                <a type="button" data-toggle="modal" data-target="#exampleModal15">
+                                <img src="/portfolio/portfolio15.jpg" class="port-img" alt="" />
+                              </a>
+                              </div>
+                              <div class="swiper-slide">
+                                <a type="button" data-toggle="modal" data-target="#exampleModal16">
+                                <img src="/portfolio/portfolio16.jpg" class="port-img" alt="" />
+                              </a>
+                              </div>
+                              <div class="swiper-slide">
+                                <a type="button" data-toggle="modal" data-target="#exampleModal17">
+                                <img src="/portfolio/portfolio17.jpg" class="port-img" alt="" />
+                              </a>
+                              </div>
+                              <div class="swiper-slide">
+                                <a type="button" data-toggle="modal" data-target="#exampleModal18">
+                                <img src="/portfolio/portfolio18.jpg" class="port-img" alt="" />
+                              </a>
+                              </div>
+                              <div class="swiper-slide">
+                                <a type="button" data-toggle="modal" data-target="#exampleModal19">
+                                <img src="/portfolio/portfolio19.jpg" id="port19" class="port-img" alt="" />
+                              </a>
+                              </div>
+                              <div class="swiper-slide">
+                                <a type="button" data-toggle="modal" data-target="#exampleModal20">
+                                <img src="/portfolio/portfolio20.jpg" class="port-img" alt="" />
+                              </a>
+                              </div>
+                              <div class="swiper-slide">
+                                <a type="button" data-toggle="modal" data-target="#exampleModal21">
+                                <img src="/portfolio/portfolio21.jpg" class="port-img" alt="" />
+                              </a>
+                              </div>
+                              <div class="swiper-slide">
+                                <a type="button" data-toggle="modal" data-target="#exampleModal22">
+                                <img src="/portfolio/portfolio22.jpg" class="port-img" alt="" />
+                              </a>
+                              </div>
+                              <div class="swiper-slide">
+                                <a type="button" data-toggle="modal" data-target="#exampleModal23">
+                                <img src="/portfolio/portfolio23.jpg" class="port-img" alt="" />
+                              </a>
+                              </div>
+                              <div class="swiper-slide">
+                                <a type="button" data-toggle="modal" data-target="#exampleModal24">
+                                <img src="/portfolio/portfolio24.jpg" class="port-img" alt="" />
+                              </a>
+                              </div>
+                              <div class="swiper-slide">
+                                <a type="button" data-toggle="modal" data-target="#exampleModal25">
+                                <img src="/portfolio/portfolio25.jpg" class="port-img" alt="" />
+                              </a>
+                              </div>
+                              <div class="swiper-slide">
+                                <a type="button" data-toggle="modal" data-target="#exampleModal26">
+                                <img src="/portfolio/portfolio26.jpg" class="port-img" alt="" />
+                              </a>
+                              </div>
+                              <div class="swiper-slide">
+                                <a type="button" data-toggle="modal" data-target="#exampleModal27">
+                                <img src="/portfolio/portfolio27.jpg" class="port-img" alt="" />
+                              </a>
+                              </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+              </div>
+            </div>
+            <div class="contact-div" id="portfolio-contact">
+                <div class="black-bg"></div>
+                <div class="contact-form">
+                  <div class="row mx-auto contact-row">
+                    <div class="col-md-3 chair-div">
+                      <img src="/images/home-img8.jpg" class="chair" alt="" />
+                    </div>
+                    <div class="col-md-3 contact">
+                      <div class="cnt">
+                        <h3 class="h3-cnt">Contact <span class="cont">us</span></h3>
+                        <div class="row mt-3">
+                          <div class="col">
+                            <input
+                              type="text"
+                              placeholder="Your name"
+                              class="form-control name"
+                            />
+                          </div>
+                          <div class="col">
+                            <input
+                              type="email"
+                              placeholder="Your email"
+                              class="form-control email"
+                            />
+                          </div>
+                        </div>
+                        <div class="row second-form-row">
+                          <div class="col">
+                            <input
+                              type="text"
+                              placeholder="Your phone"
+                              class="form-control phone"
+                            />
+                          </div>
+                          <div class="col">
+                            <input
+                              type="text"
+                              placeholder="Subject"
+                              class="form-control subject"
+                            />
+                          </div>
+                        </div>
+                        <div class="txt-area">
+                          <label for="txt" class="msg-color">Message</label>
+                          <textarea class="textarea" name="" id="txt"></textarea>
+                        </div>
+                        <div class="cnt-btn">
+                          <button class="btn-contact">SEND</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-2 green-bg">
+                      <div class="contact-info">
+                        <p>
+                          <i class="fa-solid fa-location-dot" id="contact-dot"></i>
+                          Dream Tilling LLC<br />
+                          &nbsp;&nbsp;&nbsp;142 Myrtle Ave Apt 8<br />
+                          &nbsp;&nbsp;&nbsp;Stamford, CT 06902
+                        </p>
+                        <p>
+                          <i class="fa-solid fa-phone" id="contact-phone"></i>
+                          &nbsp;475-731-2156
+                        </p>
+                        <p>
+                          <i class="fa-solid fa-envelope" id="contact-env"></i>
+                          &nbsp;dreamtillingct@gmail.com
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+        <img src="/portfolio/portfolio1-enlarged.jpg" alt="">
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+<!---------->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+        <img src="/portfolio/portfolio2-enlarged.jpg" alt="">
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+<!---------->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+        <img src="/portfolio/portfolio3-enlarged.jpg" alt="">
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+<!---------->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+        <img src="/portfolio/portfolio4-enlarged.jpg" alt="">
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+<!---------->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+        <img src="/portfolio/portfolio5-enlarged.jpg" alt="">
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+<!---------->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+        <img src="/portfolio/portfolio6-enlarged.jpg" alt="">
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+<!---------->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+        <img src="/portfolio/portfolio7-enlarged.jpg" alt="">
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+<!---------->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+        <img src="/portfolio/portfolio8-enlarged.jpg" alt="">
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+<!---------->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+        <img src="/portfolio/portfolio9-enlarged.jpg" alt="">
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+<!---------->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal10" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+        <img src="/portfolio/portfolio10-enlarged.jpg" alt="">
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+<!---------->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal11" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+        <img src="/portfolio/portfolio11-enlarged.jpg" alt="">
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+<!---------->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal12" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+        <img src="/portfolio/portfolio12-enlarged.jpg" alt="">
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+<!---------->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal13" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+        <img src="/portfolio/portfolio13-enlarged.jpg" alt="">
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+<!---------->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal14" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+        <img src="/portfolio/portfolio14-enlarged.jpg" alt="">
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+<!---------->
+<div class="modal fade" id="exampleModal15" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+        <img src="/portfolio/portfolio15-enlarged.jpg" alt="">
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+<!---------->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal16" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+        <img src="/portfolio/portfolio16-enlarged.jpg" alt="">
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+<!---------->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal17" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+        <img src="/portfolio/portfolio17-enlarged.jpg" alt="">
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal18" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+        <img src="/portfolio/portfolio18-enlarged.jpg" alt="">
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+<!---------->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal19" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+        <img src="/portfolio/portfolio19-enlarged.jpg" alt="">
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+<!---------->
+<div class="modal fade" id="exampleModal20" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+        <img src="/portfolio/portfolio20-enlarged.jpg" alt="">
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+<!---------->
+<div class="modal fade" id="exampleModal21" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+        <img src="/portfolio/portfolio21-enlarged.jpg" alt="">
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+<!---------->
+<div class="modal fade" id="exampleModal22" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+        <img src="/portfolio/portfolio22-enlarged.jpg" alt="">
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+<!---------->
+<div class="modal fade" id="exampleModal23" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+        <img src="/portfolio/portfolio23-enlarged.jpg" alt="">
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+<!---------->
+<div class="modal fade" id="exampleModal24" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+        <img src="/portfolio/portfolio24-enlarged.jpg" alt="">
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+<!---------->
+<div class="modal fade" id="exampleModal25" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+        <img src="/portfolio/portfolio25-enlarged.jpg" alt="">
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+<!---------->
+<div class="modal fade" id="exampleModal26" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+        <img src="/portfolio/portfolio26-enlarged.jpg" alt="">
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+<!---------->
+<div class="modal fade" id="exampleModal27" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+        <img src="/portfolio/portfolio27-enlarged.jpg" alt="">
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+<!---------->
+          </section>
+          <div class="footer">
+            <div class="main-content-footer">
+              <div class="logo-footer">
+                <img src="/images/logo-footer.png" class="lg-ft" alt="" />
+              </div>
+              <div class="row mx-auto">
+                <div class="col-md-3">
+                  <div class="navigation-div">
+                    <p class="nav-green">NAVIGATION</p>
+                    <hr />
+                    <p class="greyish-txt"><a href="index.html" class="a-foot">Home</a></p>
+                    <p class="greyish-txt"><a href="about.html" class="a-foot">About us</a></p>
+                    <p class="greyish-txt"><a href="tile.html" class="a-foot">Tile services</a></p>
+                    <p class="greyish-txt"><a href="portfolio.html" class="a-foot">Portfolio</a></p>
+                    <p class="greyish-txt">Contact us</p>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="tileservice-div">
+                    <p class="nav-green">TILE SERVICES</p>
+                    <hr />
+                    <p class="greyish-txt">New Tile Installation</p>
+                    <p class="greyish-txt">Tile Renovation</p>
+                    <p class="greyish-txt">Tile Restoration & Repair</p>
+                    <p class="greyish-txt">Bathroom</p>
+                    <p class="greyish-txt">Kitchen</p>
+                    <p class="greyish-txt">Floor</p>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="contact-footer">
+                    <p class="nav-green">CONTACT</p>
+                    <hr />
+                    <p class="greyish-txt">
+                      <i class="fa-solid fa-location-dot" id="footer-dot"></i> Dream
+                      Tilling LLC <br />
+                      &nbsp;&nbsp;&nbsp;142 Myrtle Ave Apt 8 <br />
+                      &nbsp;&nbsp;&nbsp;Stamford, CT 06902
+                    </p>
+                    <p class="margin-top-bottom">
+                      <i class="fa-solid fa-phone" id="footer-phone"></i>
+                      &nbsp;475-731-2156
+                    </p>
+                    <p class="greyish-txt">
+                      <i class="fa-solid fa-envelope" id="footer-mail"></i>
+                      &nbsp;dreamtillingct@gmail.com
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="contact-icons">
+                    <p class="nav-green">CONNECT</p>
+                    <hr />
+                    <div class="row">
+                      <div class="col-md-1 icon1">
+                        <a href="www.facebook.com" target="_blank">
+                          <img src="/images/icon-fb.png" alt="" />
+                        </a>
+                        
+                      </div>
+                      <div class="col-md-1 icon2">
+                        <a href="www.twitter.com" target="_blank">
+                        <img src="/images/icon-tw.png" alt="" />
+                      </a>
+                      </div>
+                      <div class="col-md-1 icon3">
+                        <a href="www.instagram.com" target="_blank">
+                        <img src="/images/icon-ig.png" alt="" />
+                      </a>
+                      </div>
+                      <div class="col-md-1 icon4">
+                        <a href="www.youtube.com" target="_blank">
+                        <img src="/images/icon-yt.png" alt="" />
+                      </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-down">
+                <div class="down-txt">
+                  <p class="greyish-txt">
+                    &copy; 2022 DREAM TILLING LLC - ALL RIGHTS RESERVED
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <scirpt src="quote.js"></scirpt>
+          <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="portfolio.js"></script>
+    <!--Bootstrap jQuery-->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>
